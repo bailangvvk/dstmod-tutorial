@@ -8,7 +8,7 @@
 
 我知道什么意思的都给写个解释了，不知道的就没写
 
-| 方法名                         | 类型                                     | 解释                                                   |
+| 方法名                          | 类型                                     | 解释                                                   |
 |--------------------------------|------------------------------------------|--------------------------------------------------------|
 | OverrideShade                  | function                                 |                                                        |
 | SetFinalOffset                 | function                                 |                                                        |
@@ -24,23 +24,23 @@
 | SetDepthTestEnabled            | function                                 |                                                        |
 | CompareSymbolBuilds            | function                                 |                                                        |
 | ClearOverrideBuild             | function                                 |                                                        |
-| Show                           | function(layername)                      | 显示图层(Layer)                                        |
+| Show                           | function(layername)                      | 显示图层(Layer)                                         |
 | OverrideSkinSymbol             | function                                 |                                                        |
 | AssignItemSkins                | function                                 |                                                        |
 | SetSortWorldOffset             | function                                 |                                                        |
 | OverrideItemSkinSymbol         | function                                 |                                                        |
-| SetMultColour                  | function(r,g,b,a)                        | 颜色叠乘，受原图颜色影响，参数0-1                        |
+| SetMultColour                  | function(r,g,b,a)                        | 颜色叠乘，受原图颜色影响，参数0-1                         |
 | SetHaunted                     | function                                 |                                                        |
-| GetCurrentAnimationTime        | function                                 |                                                        |
-| ClearAllOverrideSymbols        | function()                               | 清除所有覆盖通道                                       |
+| GetCurrentAnimationTime        | function                                 | 获取当前动画播放的时间，饥荒默认一帧是1/30秒               |
+| ClearAllOverrideSymbols        | function()                               | 清除所有覆盖通道                                         |
 | SetOceanBlendParams            | function                                 |                                                        |
 | PushAnimation                  | function                                 |                                                        |
 | GetMultColour                  | function                                 |                                                        |
 | ClearDefaultEffectHandle       | function                                 |                                                        |
 | SetPercent                     | function("transform_ent_mad", 1)         | 动画播放百分比，固定帧，不会动（动画名，百分比）            |
-| SetAddColour                   | function(r,g,b,a)                        | 颜色叠加，几乎不受原图颜色影响，参数0-1                  |
+| SetAddColour                   | function(r,g,b,a)                        | 颜色叠加，几乎不受原图颜色影响，参数0-1                    |
 | ClearBloomEffectHandle         | function                                 |                                                        |
-| SetBank                        | function(bankname)                       | spriter里动画的父级节点的名字                          |
+| SetBank                        | function(bankname)                       | spriter里动画的父级节点的名字                            |
 | UsePointFiltering              | function                                 |                                                        |
 | GetCurrentFacing               | function                                 |                                                        |
 | SetBankAndPlayAnimation        | function                                 |                                                        |
@@ -49,7 +49,7 @@
 | SetLayer                       | function                                 |                                                        |
 | SetRayTestOnBB                 | function                                 |                                                        |
 | SetWorldSpaceAmbientLightPos   | function                                 |                                                        |
-| IsCurrentAnimation             | function(name)                           | 当前动画名是否是name                                   |
+| IsCurrentAnimation             | function(name)                           | 当前动画名是否是name                                     |
 | SetManualBB                    | function                                 |                                                        |
 | SetHighlightColour             | function                                 |                                                        |
 | Hide                           | function(layername)                      | 隐藏图层(Layer)                                        |
